@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/millerpeterson/fitbit-launchpad/issues"
   },
-  "homepage": "https://github.com/millerpeterson/fitbit-launchpad"
+  "homepage": "https://github.com/millerpeterson/fitbit-launchpad",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
 }
