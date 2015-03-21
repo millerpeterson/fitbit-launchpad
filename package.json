@@ -2,9 +2,9 @@
   "name": "fitbit-launchpad",
   "version": "1.0.0",
   "description": "Ambient display of FitBit data on the Novation Launchpad.",
-  "main": "index.js",
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "start": "node lib/fitbit-display.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
   "homepage": "https://github.com/millerpeterson/fitbit-launchpad",
   "dependencies": {
     "express": "^4.12.3"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }
