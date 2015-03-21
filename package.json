@@ -4,7 +4,7 @@
   "description": "Ambient display of FitBit data on the Novation Launchpad.",
   "scripts": {
     "test": "make test",
-    "start": "node lib/fitbit-display.js"
+    "start": "node lib/log_server.js"
   },
   "repository": {
     "type": "git",
