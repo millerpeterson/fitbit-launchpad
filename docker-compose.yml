@@ -1,0 +1,6 @@
+web:
+  build: .
+  command: node /src/lib/server.js
+  env_file: .env
+  ports:
+   - "80:80"
