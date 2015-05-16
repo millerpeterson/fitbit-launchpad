@@ -1,7 +1,7 @@
 {
-  "name": "fitbit-launchpad",
+  "name": "fitbit-logger",
   "version": "1.0.0",
-  "description": "Ambient display of FitBit data on the Novation Launchpad.",
+  "description": "App for logging fitbit data.",
   "scripts": {
     "test": "make test",
     "start": "node lib/log_server.js"
@@ -12,10 +12,7 @@
   },
   "keywords": [
     "fitbit",
-    "novation",
-    "launchpad",
-    "midi",
-    "ambient"
+    "logging"
   ],
   "author": "Miller Peterson",
   "license": "ISC",
@@ -26,7 +23,8 @@
   "dependencies": {
     "body-parser": "^1.12.2",
     "express": "^4.12.3",
-    "fitbit-node": "^0.1.0"
+    "fitbit-node": "^0.1.0",
+    "node-env-file": "^0.1.7"
   },
   "engines": {
     "node": "0.10.x"
