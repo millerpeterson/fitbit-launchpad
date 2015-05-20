@@ -9,3 +9,6 @@ RUN     yum install -y npm
 ADD . /src
 # Install app dependencies
 RUN cd /src; npm install
+
+EXPOSE  8080
+CMD ["node", "/src/server.js"]
