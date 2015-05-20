@@ -1,7 +1,7 @@
 var express = require('express'),
     bodyParser = require('body-parser'),
-    auth = require('./authorize.js'),
-    pjson = require('../package.json'),
+    auth = require('./lib/authorize.js'),
+    pjson = require('package.json'),
     util = require('util'),
     app = express();
 
