@@ -1,0 +1,1 @@
+docker run -d -p 80:80 -v /Users/miller/dev/fitbit-logger:/src --name fbit millerpeterson/fitbit-logger nodemon server.js
