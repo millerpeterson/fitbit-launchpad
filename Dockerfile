@@ -12,5 +12,5 @@ RUN npm install
 # For Dev
 RUN npm install -g nodemon
 
-EXPOSE  8080
+EXPOSE  80
 CMD ["node", "/src/server.js"]
